@@ -1,0 +1,12 @@
+---
+ovirt:
+  url: "ovirt api url"
+  user: ""
+  password: ""
+
+ca_cert: "/etc/pki/ovirt-engine/ca.pem"
+
+ovirt_hosts:
+  - host1.example.com
+
+exported_vms_volume: "Mounted volume in ovirt nodes"

@@ -36,7 +36,6 @@ def ovirt_vm_export():
     
     print("\n Target Ovirt host: {}".format(ovirt_host))  
     
-    sys.exit("exit 0")
     # This example shows how to export a virtual machine as a Virtual
     # Appliance (OVA) file to a specified path on a host.
     # Create the connection to the server:
